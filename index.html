@@ -146,8 +146,6 @@
 </div>
 </div>
 </div>
-
-
 </div>
 
 
@@ -180,8 +178,6 @@
 <button id="nextBtn" class="arrow-btn btn btn-link text-white" aria-label="Next">›</button>
 </div>
 </div>
-
-
 </div>
 </section>
 <style>
@@ -195,7 +191,6 @@
     border-radius: 10px;
   }
 </style>
-
 </header>
 <style>
 :root{--accent:#c8d72b}
@@ -214,8 +209,6 @@ background:linear-gradient(90deg, rgba(20,20,20,.55), rgba(20,20,20,.25));
 .bg-image{position:absolute;inset:0;background-size:cover;background-position:center;filter:blur(6px) brightness(.55) saturate(.9);transform:scale(1.03);}
 .overlay-gradient{position:absolute;inset:0;background:linear-gradient(90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.7) 100%);}
 .container-inner{position:relative;z-index:3;width:100%;}
-
-
 /* Card + image + content layout */
 .slide-row{display:flex;align-items:center;gap:40px}
 .left-graphic{flex:0 0 18%;display:flex;align-items:center;justify-content:center}
@@ -255,15 +248,11 @@ const carousel = new bootstrap.Carousel(carouselEl, {interval:5000, ride:'carous
 // Smooth manual controls hooked to custom arrows
 document.getElementById('prevBtn').addEventListener('click', ()=> carousel.prev());
 document.getElementById('nextBtn').addEventListener('click', ()=> carousel.next());
-
-
 // Add keyboard navigation
 document.addEventListener('keydown', (e)=>{
 if(e.key === 'ArrowLeft') carousel.prev();
 if(e.key === 'ArrowRight') carousel.next();
 });
-
-
 // Optional: animate the center nav pill based on active slide
 function updateNavPill(){
 const idx = Array.from(document.querySelectorAll('#businessCarousel .carousel-item')).findIndex(i => i.classList.contains('active'));
