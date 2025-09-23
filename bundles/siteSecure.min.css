@@ -3684,7 +3684,7 @@ th.show-for-portrait {
 }
 
 body:after {
-    content: url(/assets/corporate/images/lb_close.png) url(/assets/corporate/images/arrowLeft.png) url(/assets/corporate/images/arrowRight.png);
+    content: url(assets/corporate/images/lb_close.png) url(assets/corporate/images/arrowLeft.png) url(assets/corporate/images/arrowRight.png);
     display: none
 }
 
@@ -3722,7 +3722,7 @@ body:after {
 
 .lb-outerContainer {
     position: relative;
-    background: url(/assets/corporate/images/LT_loader.gif) center center no-repeat #fff;
+    background: url(assets/corporate/images/LT_loader.gif) center center no-repeat #fff;
     width: 250px;
     height: 250px;
     margin: 0 auto;
@@ -3785,7 +3785,7 @@ body:after {
 }
 
 .lb-nav a.lb-prev {
-    background: url("/assets/corporate/images/arrowLeft.png") center center no-repeat #fff;
+    background: url("assets/corporate/images/arrowLeft.png") center center no-repeat #fff;
     position: absolute;
     left: 0
 }
@@ -3796,7 +3796,7 @@ body:after {
 }
 
 .lb-nav a.lb-next {
-    background: url("/assets/corporate/images/arrowRight.png") center center no-repeat #fff;
+    background: url("assets/corporate/images/arrowRight.png") center center no-repeat #fff;
     position: absolute;
     right: 0
 }
@@ -3845,7 +3845,7 @@ body:after {
     display: block;
     width: 15px;
     height: 15px;
-    background: url(/assets/corporate/images/lb_close.png) top right no-repeat;
+    background: url(assets/corporate/images/lb_close.png) top right no-repeat;
     text-align: right;
     outline: 0;
     margin: 6px 10px 0 0;
@@ -3899,7 +3899,7 @@ body:after {
 
 .slick-lightbox .slick-prev {
     left: 15px;
-    background: url(/assets/corporate/images/arrowLeft.png) center center no-repeat #fff !important;
+    background: url(assets/corporate/images/arrowLeft.png) center center no-repeat #fff !important;
     z-index: 9999;
     height: 40px;
     width: 35px
@@ -3907,7 +3907,7 @@ body:after {
 
 .slick-lightbox .slick-next {
     right: 15px;
-    background: url(/assets/corporate/images/arrowRight.png) center center no-repeat #fff !important;
+    background: url(assets/corporate/images/arrowRight.png) center center no-repeat #fff !important;
     z-index: 9999;
     height: 40px;
     width: 35px
@@ -4027,7 +4027,7 @@ body:after {
     display: block;
     width: 15px;
     height: 15px;
-    background: url(/assets/corporate/images/lb_close.png) top right no-repeat;
+    background: url(assets/corporate/images/lb_close.png) top right no-repeat;
     text-align: right;
     outline: 0;
     margin: 6px 10px 5px 0;
@@ -4563,8 +4563,8 @@ ul {
 
 @font-face {
     font-family: source_sans_proregular;
-    src: url("/assets/corporate/fonts/sourcesanspro-light-webfont.eot?");
-    src: url("/assets/corporate/fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.woff") format("woff"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.ttf") format("truetype"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.svg#source_sans_proregular") format("svg");
+    src: url("assets/corporate/fonts/sourcesanspro-light-webfont.eot?");
+    src: url("assets/corporate/fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.woff") format("woff"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.ttf") format("truetype"), url("/assets/corporate/fonts/sourcesanspro-light-webfont.svg#source_sans_proregular") format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -4597,7 +4597,7 @@ h3 {
 
 .anchorLink cite,
 .plainContent .anchorLink cite {
-    background: url(/assets/corporate/images/icons.png) -63px -106px no-repeat #fff;
+    background: url(assets/corporate/images/icons.png) -63px -106px no-repeat #fff;
     width: 37px;
     height: 35px;
     display: inline-block;
@@ -4736,7 +4736,7 @@ h2.hydroWhite {
 }
 
 .actionLink {
-    background: url(/assets/corporate/images/icons.png) right -225px no-repeat;
+    background: url(assets/corporate/images/icons.png) right -225px no-repeat;
     color: #026fc0;
     font-size: 1.3333333333rem;
     line-height: 1.25rem;
@@ -4745,12 +4745,12 @@ h2.hydroWhite {
 }
 
 .actionLink:hover {
-    background: url(/assets/corporate/images/icons.png) right -3479px no-repeat;
+    background: url(assets/corporate/images/icons.png) right -3479px no-repeat;
     color: #024d87
 }
 
 .actionLink.white {
-    background: url(/assets/corporate/images/icons.png) right -680px no-repeat;
+    background: url(assets/corporate/images/icons.png) right -680px no-repeat;
     color: #fff
 }
 
@@ -4896,7 +4896,7 @@ header {
 .heading.active .expandControls,
 .heading.active:hover .expandControls,
 .touch .heading.active .expandControls {
-    background: url(/assets/corporate/images/icons.png) right -1412px no-repeat
+    background: url(assets/corporate/images/icons.png) right -1412px no-repeat
 }
 
 .overlay .close {
@@ -4952,7 +4952,7 @@ header {
     font-size: 1.3333333333rem;
     line-height: 1.4166666667rem;
     padding: 0 2.5rem 0 0;
-    background: url(/assets/corporate/images/icons.png) right -1345px no-repeat
+    background: url(assets/corporate/images/icons.png) right -1345px no-repeat
 }
 
 .column.resetGutter,
@@ -4979,12 +4979,12 @@ header {
 }
 
 .heading:hover .expandControls {
-    background: url(/assets/corporate/images/icons.png) right -2545px no-repeat
+    background: url(assets/corporate/images/icons.png) right -2545px no-repeat
 }
 
 .videoBlock a.videoLink .playIcon,
 .videoDiv .videoLink:before {
-    background: url(/assets/corporate/images/videoArrow.jpg) left top no-repeat;
+    background: url(assets/corporate/images/videoArrow.jpg) left top no-repeat;
     width: 50px;
     height: 50px
 }
@@ -4992,7 +4992,7 @@ header {
 ul.type01 li {
     font-size: 1.25rem;
     line-height: 1.25rem;
-    background: url(/assets/corporate/images/bullet.png) left 4px no-repeat;
+    background: url(assets/corporate/images/bullet.png) left 4px no-repeat;
     padding: 0 1.6666666667rem 1.0833333333rem 1.5rem;
     color: #000
 }
@@ -5075,7 +5075,7 @@ a.article-nav-toggle:hover {
 }
 
 .videoLink .playIconsmall {
-    background: url(/assets/corporate/images/icons.png) left -1718px no-repeat;
+    background: url(assets/corporate/images/icons.png) left -1718px no-repeat;
     bottom: 0;
     display: block;
     height: 35px;
@@ -5194,7 +5194,7 @@ div.relLinks ul {
     color: #333 !important;
     font-size: 1.25rem;
     font-weight: 400;
-    background: url("/assets/corporate/images/bullet.png") 0 5px no-repeat;
+    background: url("assets/corporate/images/bullet.png") 0 5px no-repeat;
     line-height: 20px;
     padding: 0 0 .8333333333rem 1.4166666667rem
 }
@@ -5204,7 +5204,7 @@ div.relLinks ul {
 }
 
 .plainContent ul li ul li {
-    background: url("/assets/corporate/images/sub_bullet.png") 0 8px no-repeat;
+    background: url("assets/corporate/images/sub_bullet.png") 0 8px no-repeat;
     padding-left: 1.6666666667rem
 }
 
@@ -5364,7 +5364,7 @@ div.relLinks ul ol li {
 }
 
 .touch .heading .expandControls {
-    background: url(/assets/corporate/images/icons.png) right -1345px no-repeat;
+    background: url(assets/corporate/images/icons.png) right -1345px no-repeat;
     color: #0370c0
 }
 
@@ -5565,7 +5565,7 @@ div.relLinks ul li {
     color: #333;
     font-size: 1.25rem;
     font-weight: 400;
-    background: url("/assets/corporate/images/bullet.png") 0 5px no-repeat;
+    background: url("assets/corporate/images/bullet.png") 0 5px no-repeat;
     line-height: 18px;
     padding: 0 0 .8333333333rem 1.4166666667rem
 }
@@ -5656,7 +5656,7 @@ div.relLinks ul ul {
     right: 25px;
     width: 92px;
     height: 20px;
-    background: url(/assets/corporate/images/viewLarger.png) center center no-repeat
+    background: url(assets/corporate/images/viewLarger.png) center center no-repeat
 }
 
 .newsroomDetails .tabContent>ul>li {
@@ -5813,7 +5813,7 @@ div.relLinks ul ul {
 }
 
 .globalHeader ul li.otherWebsites a {
-    background: url(/assets/corporate/images/icons.png) 8px -49px no-repeat;
+    background: url(assets/corporate/images/icons.png) 8px -49px no-repeat;
     padding-left: 2.5rem
 }
 
@@ -5836,7 +5836,7 @@ div.relLinks ul ul {
 
 .globalHeader ul li.otherWebsites.active a {
     color: #fff;
-    background: url(/assets/corporate/images/otherWebsite_active.png) 8px 1px no-repeat
+    background: url(assets/corporate/images/otherWebsite_active.png) 8px 1px no-repeat
 }
 
 .globalHeader ul li.otherWebsites,
@@ -5917,7 +5917,7 @@ header .logoDiv ul li:first-child {
 }
 
 .mainNavigation .navigationList li.home a {
-    background: url(/assets/corporate/images/icons.png) 18px -2045px no-repeat;
+    background: url(assets/corporate/images/icons.png) 18px -2045px no-repeat;
     text-indent: -9999px;
     padding: 0;
     width: 60px
@@ -5988,7 +5988,7 @@ header .logoDiv ul li:first-child {
     border-top: 3px solid #006fb4;
     box-shadow: 0 4px 8px #333;
     padding: .8333333333rem .8333333333rem 1.6666666667rem 0;
-    background: url("/assets/corporate/images/navigation_separator.png") left top repeat-y #fff
+    background: url("assets/corporate/images/navigation_separator.png") left top repeat-y #fff
 }
 
 .healthSafety .contentBox ul li>div,
@@ -6013,7 +6013,7 @@ header .logoDiv ul li:first-child {
     line-height: 1.5rem;
     margin-top: .8333333333rem;
     padding: .4166666667rem 1.25rem;
-    background: url("/assets/corporate/images/icons.png") 0 -2120px no-repeat;
+    background: url("assets/corporate/images/icons.png") 0 -2120px no-repeat;
     font-weight: 400
 }
 
@@ -6051,7 +6051,7 @@ header .logoDiv ul li:first-child {
 }
 
 .mainNavigation a.showSearch {
-    background: url(/assets/corporate/images/icons.png) 0 -2270px no-repeat;
+    background: url(assets/corporate/images/icons.png) 0 -2270px no-repeat;
     width: 55px;
     height: 53px;
     float: right;
@@ -6060,7 +6060,7 @@ header .logoDiv ul li:first-child {
 }
 
 .mainNavigation .showSearch.close {
-    background: url(/assets/corporate/images/icons.png) 0 -2370px no-repeat;
+    background: url(assets/corporate/images/icons.png) 0 -2370px no-repeat;
     border: 0
 }
 
@@ -6119,12 +6119,12 @@ header .logoDiv ul li:first-child {
 
 @media screen and (max-width:768px) and (min-width:320px) {
     a.readMore {
-        background: url(/assets/corporate/images/icons.png) right -221px no-repeat !important
+        background: url(assets/corporate/images/icons.png) right -221px no-repeat !important
     }
 }
 
 .multiple {
-    background: url(/assets/corporate/images/LT_loader.gif) center center no-repeat
+    background: url(assets/corporate/images/LT_loader.gif) center center no-repeat
 }
 
 .invisible,
@@ -6214,12 +6214,12 @@ header .logoDiv ul li:first-child {
 
 .mainBanner .bx-wrapper .bx-controls-direction a.bx-prev {
     left: 0;
-    background: url(/assets/corporate/images/arrowLeft.png) 7px 13px no-repeat rgba(255, 255, 255, .7)
+    background: url(assets/corporate/images/arrowLeft.png) 7px 13px no-repeat rgba(255, 255, 255, .7)
 }
 
 .mainBanner .bx-wrapper .bx-controls-direction a.bx-next {
     right: 0;
-    background: url(/assets/corporate/images/arrowRight.png) 12px 14px no-repeat rgba(255, 255, 255, .7)
+    background: url(assets/corporate/images/arrowRight.png) 12px 14px no-repeat rgba(255, 255, 255, .7)
 }
 
 .mainBanner .bx-wrapper .bx-controls-auto,
@@ -6306,13 +6306,13 @@ header .logoDiv ul li:first-child {
 
 .smallBanner .bx-wrapper .bx-controls-direction a.bx-prev,
 .thermal-power .content-slidersml .bx-wrapper .bx-controls-direction a.bx-prev {
-    background: url(/assets/corporate/images/icons.png) -74px -2187px no-repeat rgba(255, 255, 255, .6);
+    background: url(assets/corporate/images/icons.png) -74px -2187px no-repeat rgba(255, 255, 255, .6);
     left: 0
 }
 
 .smallBanner .bx-wrapper .bx-controls-direction a.bx-next,
 .thermal-power .content-slidersml .bx-wrapper .bx-controls-direction a.bx-next {
-    background: url(/assets/corporate/images/icons.png) 14px -2187px no-repeat rgba(255, 255, 255, .6);
+    background: url(assets/corporate/images/icons.png) 14px -2187px no-repeat rgba(255, 255, 255, .6);
     right: 0
 }
 
@@ -6415,7 +6415,7 @@ header .logoDiv ul li:first-child {
 
 .promotionalLinks ul li.active,
 .promotionalLinks ul li:hover {
-    background: url(/assets/corporate/images/promotionalLinkArrow.png) center 92% no-repeat #026fc0
+    background: url(assets/corporate/images/promotionalLinkArrow.png) center 92% no-repeat #026fc0
 }
 
 .promotionalLinks ul li:hover.active {
@@ -6573,7 +6573,7 @@ header .logoDiv ul li:first-child {
 }
 
 .newsPress h2 cite {
-    background: url(/assets/corporate/images/icons.png) 0 -1057px no-repeat;
+    background: url(assets/corporate/images/icons.png) 0 -1057px no-repeat;
     height: 28px;
     display: inline-block;
     position: absolute;
@@ -6701,7 +6701,7 @@ header .logoDiv ul li:first-child {
 .newsPress .bottomLink a.rss cite {
     width: 33px;
     height: 11px;
-    background: url(/assets/corporate/images/icons.png) 0 -1220px no-repeat;
+    background: url(assets/corporate/images/icons.png) 0 -1220px no-repeat;
     display: inline-block
 }
 
@@ -6805,7 +6805,7 @@ header .logoDiv ul li:first-child {
 }
 
 .newsDetails .articleDetails .detailsPane li:first-child {
-    background: url(/assets/corporate/images/press-release-calender.png) left -2px no-repeat !important;
+    background: url(assets/corporate/images/press-release-calender.png) left -2px no-repeat !important;
     padding: 0 1.25rem 0 2.9166666667rem
 }
 
@@ -6822,7 +6822,7 @@ header .logoDiv ul li:first-child {
 }
 
 .newsDetails .articleDetails .anchorLink cite {
-    background: url(/assets/corporate/images/downloadImage.png) center no-repeat #e9e9e9 !important;
+    background: url(assets/corporate/images/downloadImage.png) center no-repeat #e9e9e9 !important;
     width: 37px;
     height: 35px;
     display: inline-block;
@@ -6847,7 +6847,7 @@ header .logoDiv ul li:first-child {
 
 .newsDetails .detailsFeaturesListing li {
     font-size: 1.6666666667rem;
-    background: url(/assets/corporate/images/bulletbigSqr.png) left 5px no-repeat !important;
+    background: url(assets/corporate/images/bulletbigSqr.png) left 5px no-repeat !important;
     padding-left: 25px;
     line-height: 25px
 }
@@ -6871,7 +6871,7 @@ header .logoDiv ul li:first-child {
 }
 
 .newsDetails .articleDetailsImages .detailsImagePane li:first-child {
-    background: url(/assets/corporate/images/press-release-Rimages.png) left top no-repeat !important;
+    background: url(assets/corporate/images/press-release-Rimages.png) left top no-repeat !important;
     padding: 0 1.25rem 0 2.9166666667rem;
     line-height: 25px
 }
@@ -6906,7 +6906,7 @@ header .logoDiv ul li:first-child {
 }
 
 .newsDetails .articleRelatedLinks .detailsLinkPane li:first-child {
-    background: url(/assets/corporate/images/press-release-Rlinks.png) left top no-repeat !important;
+    background: url(assets/corporate/images/press-release-Rlinks.png) left top no-repeat !important;
     padding: 0 1.25rem 0 2.9166666667rem;
     line-height: 25px;
     font-size: 1.4166666667rem
@@ -7073,13 +7073,13 @@ header .logoDiv ul li:first-child {
 .newsDetailSliderMulti .gallery-arrow.mod-prev {
     left: 0;
     border-radius: 0;
-    background: url(/assets/corporate/images/arrowLeft.png) center center no-repeat #fff
+    background: url(assets/corporate/images/arrowLeft.png) center center no-repeat #fff
 }
 
 .newsDetailSliderMulti .gallery-arrow.mod-next {
     right: 0;
     border-radius: 0;
-    background: url(/assets/corporate/images/arrowRight.png) center center no-repeat #fff
+    background: url(assets/corporate/images/arrowRight.png) center center no-repeat #fff
 }
 
 .newsDetailSliderMulti .gallery-item {
@@ -7265,11 +7265,11 @@ ul.smLinks li a {
 }
 
 ul.smLinks li.jobOpening {
-    background: url(/assets/corporate/images/icons.png) 0 -281px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -281px no-repeat
 }
 
 ul.smLinks li.linkedkIn {
-    background: url(/assets/corporate/images/icons.png) 0 -376px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -376px no-repeat
 }
 
 ul.smLinks li.contact-us {
@@ -7277,28 +7277,28 @@ ul.smLinks li.contact-us {
 }
 
 ul.smLinks li.relDocuments {
-    background: url(/assets/corporate/images/icons.png) 0 -4044px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -4044px no-repeat
 }
 
 ul.smLinks li.relVideo {
-    background: url(/assets/corporate/images/icons.png) 0 -4184px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -4184px no-repeat
 }
 
 ul.smLinks li.relRecruitment {
-    background: url(/assets/corporate/images/icons.png) 0 -4322px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -4322px no-repeat
 }
 
 ul.smLinks li.relContact {
-    background: url(/assets/corporate/images/icons.png) 0 -4463px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -4463px no-repeat
 }
 
 ul.smLinks li.relRecruitmentCaution {
-    background: url(/assets/corporate/images/icons.png) 0 -4600px no-repeat
+    background: url(assets/corporate/images/icons.png) 0 -4600px no-repeat
 }
 
 ul.smLinks li.twitter,
 ul.smLinks li.twitter_footer {
-    background: url(/assets/corporate/images/icons.png?v=1) 0 -5470px no-repeat
+    background: url(assets/corporate/images/icons.png?v=1) 0 -5470px no-repeat
 }
 
 .row.footer footer {
@@ -7397,7 +7397,7 @@ ul.smLinks li.twitter_footer {
 .row.footerBottom ul.footerLinks li {
     display: inline-block;
     padding: .4166666667rem 1rem;
-    background: url(/assets/corporate/images/icons.png) left -158px no-repeat
+    background: url(assets/corporate/images/icons.png) left -158px no-repeat
 }
 
 .row.footerBottom ul.footerLinks li a {
@@ -7467,7 +7467,7 @@ ul.smLinks li.twitter_footer {
 }
 
 .showCase ul.bxslider li .imgDiv a.playIcon {
-    background: url("/assets/corporate/images/icons.png") 0 -574px no-repeat rgba(0, 0, 0, 0);
+    background: url("assets/corporate/images/icons.png") 0 -574px no-repeat rgba(0, 0, 0, 0);
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -12701,7 +12701,7 @@ html {
     .business-container {
         padding: 50px 15px;
         min-height: 350px;
-        background: url("/assets/corporate/images/rewamp_images/Mobile-Banner.jpg") 0 0/cover no-repeat #001c32
+        background: url("assets/corporate/images/rewamp_images/Mobile-Banner.jpg") 0 0/cover no-repeat #001c32
     }
 
     .business-container h2 {
@@ -13224,7 +13224,7 @@ html {
     right: 25px;
     width: 44px;
     height: 44px;
-    background: url("/assets/corporate/images/rewamp_images/white-arrow.png") center no-repeat
+    background: url("assets/corporate/images/rewamp_images/white-arrow.png") center no-repeat
 }
 
 .news-listing .more-news a.anchorLink,
@@ -13859,7 +13859,7 @@ html {
 
 .career-list .career-thumb .career-link a cite,
 .career-list .career-thumb .linkBottom a cite {
-    background: url(/assets/corporate/images/icons.png) -63px -4816px no-repeat #004d8b
+    background: url(assets/corporate/images/icons.png) -63px -4816px no-repeat #004d8b
 }
 
 .career-list .career-thumb .career-link a:hover cite,
@@ -13918,14 +13918,14 @@ html {
     float: right;
     position: absolute;
     right: -120px;
-    background: url(/assets/corporate/images/rewamp_images/white-arrow-right.png) no-repeat
+    background: url(assets/corporate/images/rewamp_images/white-arrow-right.png) no-repeat
 }
 
 .slider-nav-thumbnails .slick-prev {
     float: left;
     position: absolute;
     left: -120px;
-    background: url(/assets/corporate/images/rewamp_images/white-arrow-left.png) no-repeat
+    background: url(assets/corporate/images/rewamp_images/white-arrow-left.png) no-repeat
 }
 
 .a2a_default_style .a2a_counter img,

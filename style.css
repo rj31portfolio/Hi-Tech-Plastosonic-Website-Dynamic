@@ -1,0 +1,249 @@
+/* Global */
+:root {
+    --accent: #c8d72b;
+    --primary-blue: #004a80;
+    --secondary-blue: #005a9c;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* Top bar */
+.top-bar {
+    background: #fff;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    text-align: right;
+}
+
+.top-bar a {
+    color: #555;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Logo area */
+.logo-bar {
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.logo-bar img {
+    height: 40px;
+}
+
+/* Main navbar */
+.navbar-custom {
+    background-color: var(--primary-blue);
+    padding: 0;
+}
+
+.navbar-custom .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 12px 18px;
+}
+
+.navbar-custom .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom .home-icon {
+    background-color: var(--secondary-blue);
+    border-right: 1px solid var(--primary-blue);
+}
+
+.navbar-custom .search-icon {
+    background-color: var(--secondary-blue);
+    border-left: 1px solid var(--primary-blue);
+}
+
+/* Video Section */
+.video-section video {
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* Businesses Section */
+.businesses-section {
+    position: relative;
+    height: 85vh;
+    min-height: 560px;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.businesses-section .carousel-item {
+    height: 85vh;
+    min-height: 560px;
+}
+
+.bg-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px) brightness(.55) saturate(.9);
+    transform: scale(1.03);
+}
+
+.overlay-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.container-inner {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Card + image + content layout */
+.slide-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.left-graphic {
+    flex: 0 0 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-graphic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .5);
+}
+
+.center-image {
+    flex: 0 0 28%;
+}
+
+.center-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .6);
+}
+
+.right-content {
+    flex: 1;
+    color: #fff;
+}
+
+.right-content h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.right-content p {
+    opacity: .95;
+    line-height: 1.7;
+    max-width: 560px;
+}
+
+.read-more {
+    margin-top: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+/* bottom nav */
+.bottom-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 28px;
+    z-index: 4;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, .12);
+    position: relative;
+}
+
+.nav-pill {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -12px;
+    background: transparent;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.nav-labels {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-arrows {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.arrow-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .22);
+    backdrop-filter: blur(3px);
+}
+
+/* animation and responsiveness */
+@media (max-width:991px) {
+    .slide-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-graphic,
+    .center-image {
+        flex-basis: 60%;
+    }
+
+    .right-content h2 {
+        font-size: 32px;
+    }
+
+    .bottom-nav {
+        padding: 0 18px;
+    }
+}
